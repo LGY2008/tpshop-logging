@@ -1,0 +1,300 @@
+2019-02-23 23:30:25,391 INFO [root] [base.py (Base:13] - [Base]:开始执行
+2019-02-23 23:30:25,507 INFO [root] [test02_cart.py (TestCart:13] - [TestCart]:  购物车用例开始执行
+2019-02-23 23:30:25,511 INFO [root] [test03_order.py (TestOrder:13] - [TestOrder]:订单模块测试用例
+2019-02-23 23:30:25,513 INFO [root] [test04_pay.py (TestPay:13] - [TestPay]：支付模块用例
+2019-02-23 23:30:37,577 INFO [root] [test01_login.py (setUpClass:31] - [TestLogin]: 实例化driver
+2019-02-23 23:30:37,577 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="39110631-9f48-4d32-be95-5f345e0e86e4")>
+2019-02-23 23:30:37,577 INFO [root] [test01_login.py (setUpClass:35] - [TestLogin]: 实例化PageLogin对象
+2019-02-23 23:30:37,578 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:30:39,661 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '登录')
+2019-02-23 23:30:39,661 INFO [root] [test01_login.py (setUpClass:39] - [TestLogin]: 初次打开登录连接地址
+2019-02-23 23:30:39,661 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：True
+2019-02-23 23:30:39,661 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:39,760 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:39,824 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:30:39,825 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:39,874 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:39,918 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:30:39,919 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:39,965 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:40,005 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:30:40,005 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:40,096 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:40,096 INFO [root] [test01_login.py (test_login:58] - [TestLogin]: 调用登录方法，username:13800001111,pwd:123456,verify_code:8888
+2019-02-23 23:30:40,096 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'userinfo')
+2019-02-23 23:30:40,097 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'userinfo')
+2019-02-23 23:30:44,486 INFO [root] [test01_login.py (test_login:61] - [TestLogin]: 登录成功
+2019-02-23 23:30:44,486 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '安全退出')
+2019-02-23 23:30:47,913 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '安全退出')
+2019-02-23 23:30:47,913 INFO [root] [test01_login.py (test_login:65] - [TestLogin]: 退出登录
+2019-02-23 23:30:47,913 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:30:47,937 INFO [root] [base.py (base_find_element_exist:85] - [Base]查找('link text', '登录')元素存在！
+2019-02-23 23:30:47,937 INFO [root] [test01_login.py (test_login:69] - [TestLogin]: 退出登录成功
+2019-02-23 23:30:47,938 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:30:49,940 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '登录')
+2019-02-23 23:30:49,940 INFO [root] [test01_login.py (test_login:73] - [TestLogin]: 退出登录后，点击登录连接
+2019-02-23 23:30:49,941 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:49,941 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:49,941 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:49,972 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:49,996 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')
+2019-02-23 23:30:49,997 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:50,025 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:50,061 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:30:50,061 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:50,099 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:50,131 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:30:50,131 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:50,237 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:50,237 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:,pwd:123456,verify_code:8888
+2019-02-23 23:30:50,237 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:50,237 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:50,271 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:,pwd:123456,verify_code:8888->断言成功！
+2019-02-23 23:30:50,271 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:50,386 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:50,386 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:50,386 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:50,386 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:50,386 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:50,452 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:50,493 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:30:50,493 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:50,531 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:50,556 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')
+2019-02-23 23:30:50,557 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:50,588 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:50,622 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:30:50,622 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:50,709 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:50,709 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:13800001111,pwd:,verify_code:8888
+2019-02-23 23:30:50,710 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:50,710 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:50,736 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:13800001111,pwd:,verify_code:8888->断言成功！
+2019-02-23 23:30:50,736 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:50,812 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:50,812 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:50,812 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:50,812 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:50,813 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:50,856 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:50,905 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:30:50,905 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:50,942 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:50,978 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:30:50,978 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:51,018 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:51,060 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')
+2019-02-23 23:30:51,060 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:51,156 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:51,156 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:13800001111,pwd:123456,verify_code:
+2019-02-23 23:30:51,156 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:51,156 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:51,179 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:13800001111,pwd:123456,verify_code:->断言成功！
+2019-02-23 23:30:51,179 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:51,261 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:51,262 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:51,262 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:51,262 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:51,262 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:51,341 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:51,392 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')138000011111
+2019-02-23 23:30:51,392 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:51,434 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:51,473 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:30:51,473 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:51,502 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:51,532 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')
+2019-02-23 23:30:51,532 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:51,610 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:51,610 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:138000011111,pwd:123456,verify_code:
+2019-02-23 23:30:51,610 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:51,610 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:51,637 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:138000011111,pwd:123456,verify_code:->断言成功！
+2019-02-23 23:30:51,637 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:51,710 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:51,711 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:51,711 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:51,711 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:51,711 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:51,770 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:51,819 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:30:51,819 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:51,861 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:51,902 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')1234567
+2019-02-23 23:30:51,902 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:51,935 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:51,973 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:30:51,973 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:52,050 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:52,050 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:13800001111,pwd:1234567,verify_code:8888
+2019-02-23 23:30:52,051 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:52,051 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:53,605 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:13800001111,pwd:1234567,verify_code:8888->断言成功！
+2019-02-23 23:30:53,605 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:53,785 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:53,785 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:53,785 INFO [root] [test01_login.py (test_login:52] - [TestLogin]: 判断是否为[正向]用例：False
+2019-02-23 23:30:53,785 INFO [root] [test01_login.py (test_login:79] - [TestLogin]: 判断是否为[逆向]用例：True
+2019-02-23 23:30:53,785 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:30:53,835 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:30:53,882 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:30:53,883 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:30:53,915 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:30:53,959 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:30:53,959 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:30:54,007 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:30:54,042 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')88888
+2019-02-23 23:30:54,042 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:30:54,119 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:30:54,119 INFO [root] [test01_login.py (test_login:82] - [TestLogin]: 调用登录方法，username:13800001111,pwd:123456,verify_code:88888
+2019-02-23 23:30:54,119 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:54,120 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'layui-layer-padding')
+2019-02-23 23:30:54,356 INFO [root] [test01_login.py (test_login:86] - [TestLogin]: 调用登录方法，username:13800001111,pwd:123456,verify_code:88888->断言成功！
+2019-02-23 23:30:54,356 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:54,476 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('xpath', "//*[text()='确定']")
+2019-02-23 23:30:54,476 INFO [root] [test01_login.py (test_login:90] - [TestLogin]: 点击确定
+2019-02-23 23:30:54,892 INFO [root] [test01_login.py (tearDownClass:46] - [TestLogin]: 退出driver驱动对象
+2019-02-23 23:31:06,533 INFO [root] [test02_cart.py (setUp:17] - [TestCart]:  获取driver对象
+2019-02-23 23:31:06,533 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="6ada6d9f-7c91-47c1-82ee-f1fce5f02603")>
+2019-02-23 23:31:06,533 INFO [root] [test02_cart.py (setUp:20] - [TestCart]:  获取购物车对象
+2019-02-23 23:31:06,533 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="6ada6d9f-7c91-47c1-82ee-f1fce5f02603")>
+2019-02-23 23:31:06,534 INFO [root] [test02_cart.py (setUp:23] - [TestCart]:  获取登录页面对象
+2019-02-23 23:31:06,534 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:31:09,156 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '登录')
+2019-02-23 23:31:09,156 INFO [root] [test02_cart.py (setUp:26] - [TestCart]:  点击登录连接
+2019-02-23 23:31:09,156 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:31:09,244 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:31:09,307 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:31:09,308 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:31:09,366 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:31:09,409 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:31:09,409 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:31:09,453 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:31:09,498 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:31:09,499 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:31:09,598 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:31:09,598 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'userinfo')
+2019-02-23 23:31:09,599 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'userinfo')
+2019-02-23 23:31:13,971 INFO [root] [test02_cart.py (setUp:29] - [TestCart]:  执行登录
+2019-02-23 23:31:17,003 INFO [root] [base.py (base_get_index:93] - [Base]打开首页操作：http://127.0.0.1
+2019-02-23 23:31:17,003 INFO [root] [test02_cart.py (setUp:33] - [TestCart]:  回到首页
+2019-02-23 23:31:17,003 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '#q')
+2019-02-23 23:31:18,773 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('css selector', '#q')
+2019-02-23 23:31:18,811 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('css selector', '#q')小米手机
+2019-02-23 23:31:18,812 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.ecsc-search-button')
+2019-02-23 23:31:22,184 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.ecsc-search-button')
+2019-02-23 23:31:22,184 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.p-btn>a')
+2019-02-23 23:31:22,267 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.p-btn>a')
+2019-02-23 23:31:22,267 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '#join_cart')
+2019-02-23 23:31:30,017 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '#join_cart')
+2019-02-23 23:31:30,017 INFO [root] [test02_cart.py (test_add_cart:43] - [TestCart]:  调用添加购物车操作方法
+2019-02-23 23:31:32,017 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', 'iframe')
+2019-02-23 23:31:32,041 INFO [root] [base.py (base_switch_frame:49] - [Base]切换iframe表单操作：<selenium.webdriver.remote.webelement.WebElement (session="6ada6d9f-7c91-47c1-82ee-f1fce5f02603", element="{92f9994f-4e7e-4c27-a899-363c87376988}")>
+2019-02-23 23:31:32,042 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('css selector', '.conect-title>span')
+2019-02-23 23:31:32,042 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.conect-title>span')
+2019-02-23 23:31:32,073 INFO [root] [test02_cart.py (test_add_cart:46] - [TestCart]:  添加购物车后提示信息：添加成功
+2019-02-23 23:31:32,086 INFO [root] [base.py (base_default_frame:54] - [Base]切换iframe表单默认目录
+2019-02-23 23:31:32,086 INFO [root] [test02_cart.py (test_add_cart:50] - [TestCart]:  回到iframe默认页面
+2019-02-23 23:31:32,086 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.layui-layer-ico')
+2019-02-23 23:31:32,160 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.layui-layer-ico')
+2019-02-23 23:31:32,160 INFO [root] [test02_cart.py (test_add_cart:53] - [TestCart]:  关闭提示添加成功后的信息框
+2019-02-23 23:31:32,642 INFO [root] [test02_cart.py (tearDown:37] - [TestCart]:  关闭driver对象
+2019-02-23 23:31:43,979 INFO [root] [test03_order.py (setUp:18] - [TestOrder]: 获取driver对象
+2019-02-23 23:31:43,979 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="cbe0d51a-df3a-4b80-8570-9064b24af2a7")>
+2019-02-23 23:31:43,979 INFO [root] [test03_order.py (setUp:21] - [TestOrder]: 获取登录对象
+2019-02-23 23:31:43,980 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:31:48,436 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '登录')
+2019-02-23 23:31:48,436 INFO [root] [test03_order.py (setUp:24] - [TestOrder]: 点击登录连接
+2019-02-23 23:31:48,436 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:31:48,483 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:31:48,532 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:31:48,532 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:31:48,572 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:31:48,607 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:31:48,607 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:31:48,646 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:31:48,681 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:31:48,681 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:31:48,759 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:31:48,759 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'userinfo')
+2019-02-23 23:31:48,759 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'userinfo')
+2019-02-23 23:31:53,383 INFO [root] [test03_order.py (setUp:27] - [TestOrder]: 执行登录成功
+2019-02-23 23:31:55,731 INFO [root] [base.py (base_get_index:93] - [Base]打开首页操作：http://127.0.0.1
+2019-02-23 23:31:55,731 INFO [root] [test03_order.py (setUp:30] - [TestOrder]: 回到首页
+2019-02-23 23:31:55,731 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="cbe0d51a-df3a-4b80-8570-9064b24af2a7")>
+2019-02-23 23:31:55,731 INFO [root] [test03_order.py (setUp:33] - [TestOrder]: 获取PageOrder对象
+2019-02-23 23:31:55,731 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.c-n.fl')
+2019-02-23 23:31:55,856 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.c-n.fl')
+2019-02-23 23:31:55,856 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.checkCartAll')
+2019-02-23 23:31:58,708 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.gwc-qjs')
+2019-02-23 23:32:00,598 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.gwc-qjs')
+2019-02-23 23:32:00,598 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.address_id>input')
+2019-02-23 23:32:03,014 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.gwc-qjs>span')
+2019-02-23 23:32:03,132 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.gwc-qjs>span')
+2019-02-23 23:32:03,133 INFO [root] [test03_order.py (test_order:46] - [TestOrder]: 执行提交订单业务
+2019-02-23 23:32:03,133 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('css selector', '.erhuh>h3')
+2019-02-23 23:32:03,133 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.erhuh>h3')
+2019-02-23 23:32:08,295 INFO [root] [test03_order.py (test_order:49] - [TestOrder]: 订单断言成功，断言信息：订单提交成功，请您尽快付款！
+2019-02-23 23:32:09,170 INFO [root] [test03_order.py (tearDown:39] - [TestOrder]: 关闭driver对象
+2019-02-23 23:32:20,874 INFO [root] [test04_pay.py (setUp:17] - [TestPay]：获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="dc6a493f-0a64-4f2d-9dc0-9309a3b2854e")>
+2019-02-23 23:32:20,874 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="dc6a493f-0a64-4f2d-9dc0-9309a3b2854e")>
+2019-02-23 23:32:20,874 INFO [root] [test04_pay.py (setUp:20] - [TestPay]：获取登录对象：<page.page_login.PageLogin object at 0x030429B0>
+2019-02-23 23:32:20,874 INFO [root] [base.py (__init__:16] - [Base]:获取传递driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="dc6a493f-0a64-4f2d-9dc0-9309a3b2854e")>
+2019-02-23 23:32:20,874 INFO [root] [test04_pay.py (setUp:23] - [TestPay]：获取支付对象：<page.page_pay.PagePay object at 0x030427F0>
+2019-02-23 23:32:20,874 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '登录')
+2019-02-23 23:32:24,086 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '登录')
+2019-02-23 23:32:24,119 INFO [root] [test04_pay.py (setUp:26] - [TestPay]：点击登录地址：http://127.0.0.1/Home/user/login.html
+2019-02-23 23:32:24,120 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'username')
+2019-02-23 23:32:24,155 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'username')
+2019-02-23 23:32:24,209 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'username')13800001111
+2019-02-23 23:32:24,209 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'password')
+2019-02-23 23:32:24,255 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'password')
+2019-02-23 23:32:24,294 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'password')123456
+2019-02-23 23:32:24,294 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('id', 'verify_code')
+2019-02-23 23:32:24,334 INFO [root] [base.py (base_input_text:32] - [Base]清除文本操作：('id', 'verify_code')
+2019-02-23 23:32:24,374 INFO [root] [base.py (base_input_text:34] - [Base]输入文本操作：('id', 'verify_code')8888
+2019-02-23 23:32:24,374 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('name', 'sbtbutton')
+2019-02-23 23:32:24,463 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('name', 'sbtbutton')
+2019-02-23 23:32:24,464 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('class name', 'userinfo')
+2019-02-23 23:32:24,464 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('class name', 'userinfo')
+2019-02-23 23:32:29,193 INFO [root] [test04_pay.py (setUp:29] - [TestPay]：执行登录业务脚本成功
+2019-02-23 23:32:33,535 INFO [root] [base.py (base_get_index:93] - [Base]打开首页操作：http://127.0.0.1
+2019-02-23 23:32:33,548 INFO [root] [test04_pay.py (setUp:32] - [TestPay]：回到首页地址：http://127.0.0.1/
+2019-02-23 23:32:33,548 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '我的订单')
+2019-02-23 23:32:33,871 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '我的订单')
+2019-02-23 23:32:33,893 INFO [root] [base.py (base_get_handle:68] - [Base]获取当前窗口句柄：我的订单
+2019-02-23 23:32:33,907 INFO [root] [base.py (base_get_handle:70] - [Base]获取当前所有窗口句柄：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}']
+2019-02-23 23:32:33,907 INFO [root] [base.py (base_get_handle:72] - [Base]开始遍历所有窗口句柄{a2f0920a-5325-45d1-9378-c0242eb60bfe}in：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}']
+2019-02-23 23:32:33,943 INFO [root] [base.py (base_get_handle:74] - [Base]切换窗口句柄：{a2f0920a-5325-45d1-9378-c0242eb60bfe}
+2019-02-23 23:32:33,953 INFO [root] [base.py (base_get_handle:75] - [Base]判断当前句柄窗口title首页-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城是否为：我的订单
+2019-02-23 23:32:33,962 INFO [root] [base.py (base_get_handle:72] - [Base]开始遍历所有窗口句柄{3c3174c1-94f2-4876-98a3-02f30ccecc1a}in：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}']
+2019-02-23 23:32:33,991 INFO [root] [base.py (base_get_handle:74] - [Base]切换窗口句柄：{3c3174c1-94f2-4876-98a3-02f30ccecc1a}
+2019-02-23 23:32:35,735 INFO [root] [base.py (base_get_handle:75] - [Base]判断当前句柄窗口title我的订单是否为：我的订单
+2019-02-23 23:32:35,791 INFO [root] [base.py (base_get_handle:77] - [Base]判断当前句柄窗口title：我的订单等于：我的订单, 返回当前窗口句柄
+2019-02-23 23:32:35,806 INFO [root] [base.py (base_switch_to_window:63] - [Base]切换窗口表单操作：我的订单
+2019-02-23 23:32:35,807 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '待付款')
+2019-02-23 23:32:36,182 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '待付款')
+2019-02-23 23:32:36,182 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('link text', '立即支付')
+2019-02-23 23:32:38,392 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('link text', '立即支付')
+2019-02-23 23:32:38,426 INFO [root] [base.py (base_get_handle:68] - [Base]获取当前窗口句柄：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2019-02-23 23:32:38,434 INFO [root] [base.py (base_get_handle:70] - [Base]获取当前所有窗口句柄：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}', '{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}']
+2019-02-23 23:32:38,434 INFO [root] [base.py (base_get_handle:72] - [Base]开始遍历所有窗口句柄{a2f0920a-5325-45d1-9378-c0242eb60bfe}in：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}', '{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}']
+2019-02-23 23:32:38,470 INFO [root] [base.py (base_get_handle:74] - [Base]切换窗口句柄：{a2f0920a-5325-45d1-9378-c0242eb60bfe}
+2019-02-23 23:32:38,484 INFO [root] [base.py (base_get_handle:75] - [Base]判断当前句柄窗口title首页-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城是否为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2019-02-23 23:32:38,493 INFO [root] [base.py (base_get_handle:72] - [Base]开始遍历所有窗口句柄{3c3174c1-94f2-4876-98a3-02f30ccecc1a}in：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}', '{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}']
+2019-02-23 23:32:38,521 INFO [root] [base.py (base_get_handle:74] - [Base]切换窗口句柄：{3c3174c1-94f2-4876-98a3-02f30ccecc1a}
+2019-02-23 23:32:38,532 INFO [root] [base.py (base_get_handle:75] - [Base]判断当前句柄窗口title我的订单是否为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2019-02-23 23:32:38,540 INFO [root] [base.py (base_get_handle:72] - [Base]开始遍历所有窗口句柄{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}in：['{a2f0920a-5325-45d1-9378-c0242eb60bfe}', '{3c3174c1-94f2-4876-98a3-02f30ccecc1a}', '{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}']
+2019-02-23 23:32:38,575 INFO [root] [base.py (base_get_handle:74] - [Base]切换窗口句柄：{8eb0d8f3-d807-4adf-a150-9b95edbd5dea}
+2019-02-23 23:32:44,478 INFO [root] [base.py (base_get_handle:75] - [Base]判断当前句柄窗口title订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城是否为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2019-02-23 23:32:44,510 INFO [root] [base.py (base_get_handle:77] - [Base]判断当前句柄窗口title：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城等于：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城, 返回当前窗口句柄
+2019-02-23 23:32:44,519 INFO [root] [base.py (base_switch_to_window:63] - [Base]切换窗口表单操作：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2019-02-23 23:32:44,519 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', "[src='/plugins/payment/cod/logo.jpg']")
+2019-02-23 23:32:44,644 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', "[src='/plugins/payment/cod/logo.jpg']")
+2019-02-23 23:32:46,644 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.button-confirm-payment')
+2019-02-23 23:32:48,209 INFO [root] [base.py (base_click_element:26] - [Base]点击操作：('css selector', '.button-confirm-payment')
+2019-02-23 23:32:48,210 INFO [root] [test04_pay.py (test_pay:42] - [TestPay]：调用支付业务成功
+2019-02-23 23:32:48,210 INFO [root] [base.py (base_get_text:43] - [Base]获取文本操作：('css selector', '.erhuh>h3')
+2019-02-23 23:32:48,210 INFO [root] [base.py (base_find_element:20] - [Base]查找元素操作：('css selector', '.erhuh>h3')
+2019-02-23 23:32:49,781 INFO [root] [test04_pay.py (test_pay:46] - [TestPay]：断言支付状态成功，返回信息：订单提交成功，我们将在第一时间给你发货！
+2019-02-23 23:32:50,525 INFO [root] [test04_pay.py (tearDown:36] - [TestPay]：退出driver对象，driver：<selenium.webdriver.firefox.webdriver.WebDriver (session="dc6a493f-0a64-4f2d-9dc0-9309a3b2854e")>

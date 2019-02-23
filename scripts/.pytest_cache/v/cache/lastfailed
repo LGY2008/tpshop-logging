@@ -1,0 +1,5 @@
+{
+  "tes01_cart.py": true,
+  "test03_order.py::TestOrder": true,
+  "test_login.py": true
+}

@@ -1,0 +1,35 @@
+login_001:
+  username: "13800001111"
+  password: "123456"
+  verify_code: "8888"
+  expect_info: "1380"
+login_002:
+  username: ""
+  password: "123456"
+  verify_code: "8888"
+  expect_msg: "用户名不能为空"
+login_003:
+  username: "13800001111"
+  password: ""
+  verify_code: "8888"
+  expect_msg: "密码不能为空"
+login_004:
+  username: "13800001111"
+  password: "123456"
+  verify_code: ""
+  expect_msg: "验证码不能为空"
+login_005:
+  username: "138000011111"
+  password: "123456"
+  verify_code: ""
+  expect_msg: "账号格式不匹配"
+login_006:
+  username: "13800001111"
+  password: "1234567"
+  verify_code: "8888"
+  expect_msg: "密码错误"
+login_007:
+  username: "13800001111"
+  password: "123456"
+  verify_code: "88888"
+  expect_msg: "验证码错误"
